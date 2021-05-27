@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+int a,b;//initializing variables a and b
+printf("Enter value of a and b");//Value to be entered by user of a and before swapping
+scanf("%d%d",&a,&b);//input the values of and b from user to computer
+a=a+b;
+b=a-b;
+a=a-b;
+printf("after swapping values are:- a=%d,b=%d",a,b);//printing the values of and b agter swapping 
+return 0;
+}
